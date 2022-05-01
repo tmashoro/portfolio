@@ -1,14 +1,14 @@
 * {
+    
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     
 }
 
-body {/* background-color: blue; */
+body {
     
 background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
-
 
 }
 
@@ -44,6 +44,7 @@ header nav ul {
     font-weight: lighter;
     font-size: 1.55vw;
   }
+
 .Aboutme{
     background-color: rgb(66, 35, 35);
     display: flex;
@@ -58,13 +59,6 @@ flex-direction: row;
 text-align: center; 
 }
 
-.Aboutme h2 {
-    /* display: flex;
-    text-align: left;
-    margin: 00px auto 35px auto;
-    width: 60%;
-    padding: bottom 20px;  */
-}
 
   .ContactMe {
     padding: 20px 35px;
@@ -74,21 +68,7 @@ text-align: center;
     flex-wrap: wrap;
     flex-direction: row;
   }
-  /*
-.Work{
-    display: flex;
-    justify-content: center;
-    
-    flex-wrap: wrap; 
-flex-direction: row;
-}
-.Work h2{
-    width: 100%;
-    flex: left;
-}
-
-}
-*/
+  
   .workproject {
       display: flex;
       flex-wrap: wrap;

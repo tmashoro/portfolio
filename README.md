@@ -10,4 +10,6 @@ The goal of this html index is to display my portfolio. The portfolio will inclu
 
 #### Link
 
+https://tmashoro.github.io/portfolio/
+
 
