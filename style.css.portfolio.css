@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {/* background-color: blue; */
+background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: aliceblue;
+    
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  header nav {
+    margin: 7px 0;
+  }
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+.Aboutme{
+    background-color: rgb(66, 35, 35);
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+flex-direction: row;
+}
+.Aboutme p{
+    
+ width: 60%;
+ 
+text-align: center; 
+}
+
+.Aboutme h2 {
+    /* display: flex;
+    text-align: left;
+    margin: 00px auto 35px auto;
+    width: 60%;
+    padding: bottom 20px;  */
+}
+
+  .ContactMe {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  /*
+.Work{
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap; 
+flex-direction: row;
+}
+.Work h2{
+    width: 100%;
+    flex: left;
+}
+
+}
+*/
+  .workproject {
+      display: flex;
+      flex-wrap: wrap;
+      
+  }
+
+  .project{
+    margin: 20px;
+    flex: 1;
+    flex-direction: row;
+    text-align: center;
+    
+  }
+  .project img {
+
+   width: 100%;
+      
+  }
+/* hover property code*/
+  .project img:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+
+
+.ContactMe ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+    list-style: none;
+    width: 63%;
+    text-align: center;
+
+}
+
+.ContactMe ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
